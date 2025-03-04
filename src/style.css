@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+.el-card {
+  @apply bg-white rounded-lg shadow-md;
+}
+
+.el-table {
+  @apply bg-white rounded-lg shadow-md;
+}
+
+.el-table th {
+  @apply bg-gray-100 text-gray-700;
+}
+
+.el-table tr {
+  @apply border-b border-gray-200;
+}
